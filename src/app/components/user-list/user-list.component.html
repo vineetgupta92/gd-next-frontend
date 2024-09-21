@@ -1,0 +1,27 @@
+<h2>All Users</h2>
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Sex</th>
+        <th>Birthdate</th>
+        <th>Birthplace</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let user of users">
+        <td>
+            <a [routerLink]="['/dynamic-form', user.id]">{{ user.id }}</a>
+        </td>
+        <td>{{ user.firstName }}</td>
+        <td>{{ user.lastName }}</td>
+        <td>{{ user.address }}</td>
+        <td>{{ user.sex }}</td>
+        <td>{{ user.birthdate }}</td>
+        <td>{{ user.birthplace }}</td>
+    </tr>
+    </tbody>
+</table>

@@ -1,0 +1,35 @@
+.dynamic-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.invalid-feedback {
+    color: red;
+    font-size: 0.875em;
+}
